@@ -2,8 +2,8 @@ import java.util.Objects;
 
 public class Bus extends Transport {
     private String Model;
-    public Bus(String name,String model, int speed, int lifting_capacity) {
-        super(name, speed, lifting_capacity);
+    public Bus(String name,String model, int speed, int lifting_capacity,Human h) {
+        super(name, speed, lifting_capacity,h);
         Model=model;
     }
 

@@ -2,8 +2,8 @@ import java.util.Objects;
 
 public class Bicycle extends Transport {
     private String Mark;
-    public Bicycle(String name,String mark, int speed,int lifting_capacity) {
-        super(name, speed,lifting_capacity);
+    public Bicycle(String name,String mark, int speed,int lifting_capacity,Human h) {
+        super(name, speed,lifting_capacity,h);
         Mark=mark;
     }
 

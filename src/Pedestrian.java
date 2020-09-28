@@ -3,10 +3,13 @@ import java.util.Objects;
 public class Pedestrian extends  Transport{
     private String Surname;
     private int Age;
-    public Pedestrian(String name,String surname, int speed,int age,int lf) {
-        super(name, speed,lf);
+    public Pedestrian(String name,String surname, int speed,int age,int lf,Human h) {
+        super(name, speed,lf,h);
         Surname=surname;
         Age=age;
+    }
+    public Pedestrian(String name,int speed,int lf,Human h) {
+    	super(name,speed,lf,h);
     }
 
     @Override

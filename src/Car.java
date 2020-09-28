@@ -1,7 +1,7 @@
 public class Car extends Transport {
     public String Model;
-    public Car(String name, String model,int speed,int lifting_capacity) {
-        super(name, speed,lifting_capacity);
+    public Car(String name, String model,int speed,int lifting_capacity,Human h) {
+        super(name, speed,lifting_capacity,h);
         Model=model;
     }
 
